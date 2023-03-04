@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1281px){
+    .bg_img{
+        width: 100%;
+        
+        background: rgba(255, 255, 255, 0.243);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.463) 0%, rgba(255, 255, 255, 0.581) 100%),url(/public/media/bg_img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .imgContainer{
+        border-radius: 50%;
+        background-color: var(--c-sec);
+        padding: 40px;
+        width: 30%;
+        height: 50%;
+        
+    }
+}

@@ -1,0 +1,114 @@
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+:root{
+    --c-main: #000000;
+    --c-sec: #D8C2AD;
+    --c-sectwo:#D2D2D2;
+    --c-accent:#CDDEF0;
+    --c-white: #FFFFFF;
+}
+.tx-main{
+    color: var(--c-main);
+}
+.tx-sec{
+    color: var(--c-sec);
+}
+.tx-sectwo{
+    color: var(--c-sectwo);
+}
+.tx-accent{
+    color: var(--c-accent); 
+}
+.tx-white{
+    color: var(--c-white);
+}
+.bg-main{
+    background-color: var(--c-main);
+}
+.bg-sec{
+    background-color: var(--c-sec);
+}
+.bg-sectwo{
+    background-color: var(--c-sectwo);
+}
+.bg-accent{
+    background-color: var(--c-accent);
+}
+.bg-white{
+    background-color: var(--c-white);
+}
+.btn_info{
+    background-color: var(--c-sec);
+    margin-top: 60px;
+}
+.bg_img{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.243);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.463) 0%, rgba(255, 255, 255, 0.581) 100%),url(/public/media/bg_img.jpg );
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: left;
+}
+.imgContainer{
+    border-radius: 50%;
+    background-color: var(--c-sec);
+    width: 85%;
+    height: 85%;
+    padding: 30px;
+    
+    
+    
+}
+.firstImg{
+    background-image: url(/public/media/firstPic.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+.secondImg{
+    background-image: url(/public/media/secondPic.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+.thirdImg{
+    background-image: url(/public/media/thirdPic.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(0);
+    transition: all 1.5s;
+}
+
+.hidden-left {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.hidden-right {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
